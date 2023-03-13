@@ -1,0 +1,12 @@
+syntax = "proto3";
+package lesson_1.lesson1;
+
+import "gogoproto/gogo.proto";
+import "lesson1/lesson1/params.proto";
+
+option go_package = "lesson_1/x/lesson1/types";
+
+// GenesisState defines the lesson1 module's genesis state.
+message GenesisState {
+  Params params = 1 [(gogoproto.nullable) = false];
+}

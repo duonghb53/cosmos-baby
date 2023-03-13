@@ -1,0 +1,7 @@
+syntax = "proto3";
+package lesson_1.lesson1;
+
+option go_package = "lesson_1/x/lesson1/types";
+
+// Msg defines the Msg service.
+service Msg {}
