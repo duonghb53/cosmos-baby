@@ -73,3 +73,6 @@ pottery plunge hero year bronze voyage visual sure pluck funny shoot drink rapid
 ~/go/bin/lesson_1d start
 ```
 ![result](images/lesson_1.png "result of a chain running")
+
+## Help videos
+https://youtu.be/9a3Xq8VDW3Y
